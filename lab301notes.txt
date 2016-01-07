@@ -1,0 +1,12 @@
+git clone -- given a url it makes a local copy of a rep
+git branch -- allows us to keep code seperated based on what we are 
+trying to develop
+git branch -a -- shows us the existing branches on our repository
+git remote -v --shows us the url/repository that our current repo is aware of
+git add -- lets us add new files to be tracked by git to our repo
+git commit -a -- saves all of our changes on the local computer into a thing
+called a commit. A commit is a set of changes
+git commit file1 file2 ... -- commits only specific files to our local branch
+git push -- this will send our local commits to our default remote git service (eg github)
+git pull -- check the remote server for new commits. If there are, then this command will fetch (git fetch) and then it will merge the new changes with
+our local branch (git merge)
